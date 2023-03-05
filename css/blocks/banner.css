@@ -1,0 +1,22 @@
+.banner{
+    margin-top: 92px;
+}
+.banner__content{
+    width: 511px;
+    height: 333px;
+}
+.banner__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 1.36em;
+}
+.banner__text{
+    margin-top: 27.5px;
+    margin-bottom: 33.5px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.11em;
+}
