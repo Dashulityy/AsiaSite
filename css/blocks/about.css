@@ -1,24 +1,29 @@
 .about{
     margin-top: 152px;
     height: 605px;
-    background-image: url("../../img/fon_2.png");
+    display: flex;
+}
+.about__info::before{
+    content: "";
+    background-image: url("../../img/gates.png");
     background-size: contain;
     background-repeat: no-repeat;
+    width: 490px;
+    height: 505px;
+    vertical-align: top;
+    border-radius: 5px;
+    display: block;
 }
-.about__container{
-    position: relative;
-}
-.about__img{
-    float: left;
-}
-.about__info{
-    position: absolute;
+.about__desc{
     width: 785px;
     height: 455px;
     background-image: url("../../img/mountains.png");
-    right: 0;
-    top: 97px;
+    border-radius: 5px;
     padding: 70px 81px 66px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 354px;
+    margin-top: -406px;
 }
 .about__text{
     width: 502px;

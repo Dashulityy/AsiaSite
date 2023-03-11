@@ -9,9 +9,9 @@
 }
 .tours__list{
     margin-top: 51px;
+    display: flex;
 }
 .tours__item{
-    display: inline-block;
     margin-right: 23px;
     width: 362px;
 }
@@ -42,8 +42,10 @@
     margin-left: 22px;
     
 }
+.tours__features, .tours__feature{
+    display: flex;
+}
 .tours__feature, .tours__feature-icon, .tours__feature-text{
-    display: inline-block;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;

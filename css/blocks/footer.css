@@ -5,12 +5,12 @@
 .footer__container{
     width: 1141px;
     border-top: 4px solid rgba(255, 255, 255, 0.1);
-}
-.logo, .menu, .socials, .socials__item, .contacts{
-    display: inline-block;
+    display: flex;
 }
 .socials{
     margin-left: 274px;
+    display: flex;
+    margin-right: 74px;
 }
 .socials__item{
     margin-right: 10px;
