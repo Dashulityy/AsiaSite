@@ -1,7 +1,12 @@
+@import url(./blocks/normalize.css);
 @import url(./blocks/base.css);
 @import url(./blocks/header.css);
+@import url(./blocks/tooltip.css);
+@import url(./blocks/menu.css);
+@import url(./blocks/button.css);
 @import url(./blocks/banner.css);
 @import url(./blocks/tours.css);
 @import url(./blocks/news.css);
 @import url(./blocks/about.css);
+@import url(./blocks/service.css);
 @import url(./blocks/footer.css);
