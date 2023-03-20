@@ -59,7 +59,7 @@ img{
 	background: url("../../img/fon_1.png") center top no-repeat, url("../../img/fon_2.png") center bottom no-repeat;
 	background-color: #001821;
 }
-.wrapper__content--service{
+.wrapper__content--pages{
 	background: url("../../img/headline\ 1.png") center top no-repeat;
 	background-color: #fff;
 }
@@ -78,4 +78,18 @@ img{
 }
 .title--black{
 	color: #000;
+}
+.breadcrumbs__list{
+    margin-top: 103.5px;
+    display: flex;
+}
+.breadcrumbs__link{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.36em;
+    
+    color: #9A9A9A;
+    text-decoration-line: underline;
 }
