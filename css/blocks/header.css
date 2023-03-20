@@ -16,9 +16,6 @@
 .logo,.contacts{
 	margin-top: 29px;
 }
-.contacts--tooltip{
-	margin-top: 109px;
-}
 .contacts__phone{
 	font-style: normal;
 	font-weight: 400;
@@ -33,7 +30,4 @@
 
 	text-decoration-line: underline;
 	text-align: right;
-}
-.contacts__info:hover + div.tooltip{
-	visibility: visible;
 }
